@@ -1,0 +1,20 @@
+:root {
+    --boxSize: 25px;
+}
+
+.grid { 
+    margin:1em auto; 
+    border-collapse:collapse;
+}
+
+.grid td {
+    cursor:pointer;
+    width: var(--boxSize); 
+    height: var(--boxSize);
+    background: darkgray;
+    border:1px solid gray;
+}
+
+.grid td.sketched {
+    background-color:black;
+}
